@@ -1,12 +1,16 @@
 import React from 'react'
 import Link from 'next/link'
+import x from "@/style/app.module.css"
+import y from "@/style/app2.module.css"
 
 const Main = () => {
   return (
     <div>
-      <div>
-      <li>
-        <Link href={"./facebook"}>facebook</Link>
+      <div >
+      <li className={x['red']}>
+        <Link href={"./facebook"}>
+        <span className={y['red']}>facebook</span>
+        </Link>
       </li>
       </div>
       <div>
@@ -21,9 +25,6 @@ const Main = () => {
         </li>
   
       </div>
-     
-      
-
     </div>
   )
 }
