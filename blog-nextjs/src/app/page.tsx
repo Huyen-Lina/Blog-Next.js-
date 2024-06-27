@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import x from "@/style/app.module.css"
 import y from "@/style/app2.module.css"
+import { Container } from 'react-bootstrap'
 
 const Main = () => {
   return (
